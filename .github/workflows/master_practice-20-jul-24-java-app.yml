@@ -50,5 +50,5 @@ jobs:
         with:
           app-name: 'practice-20-jul-24-java-app'
           slot-name: 'Production'
-          package: '*.jar'
+          package: '*.war'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4D61D727484D4FFBAB258DAB6E8FCCE2 }}
